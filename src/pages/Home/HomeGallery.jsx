@@ -1,6 +1,6 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import gallery from '../../assets/localdata/localdata';
+import data from '../../assets/localdata/localdata';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from 'react-router-dom';
 const HomeGallery = () => {
@@ -10,7 +10,7 @@ const HomeGallery = () => {
                 <h3 className='font-bold text-[60px] mb-[4rem] text-center'>Qalereya</h3>
                 <Row>
                     {
-                        gallery && gallery?.slice(0,4).map((item,index)=>(
+                        data[0] && data[0]?.slice(0,4).map((item,index)=>(
                             <Col key={index} lg={3} md={4} xs={6} className='overflow-hidden'>
                                 <LazyLoadImage className='w-full object-cover rounded-md transition-img hover:scale-105 ' src={item.img} />
                             </Col>

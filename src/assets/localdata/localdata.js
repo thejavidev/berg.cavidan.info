@@ -1,4 +1,4 @@
-import { gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9 } from "../../assets/index";
+import { gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, subbrands1, subbrands2, subbrands3, subbrands4, subbrands5 } from "../../assets/index";
 
 const gallery=[
     {
@@ -38,4 +38,54 @@ const gallery=[
         img:gallery9
     },
 ]
-export default gallery
+const brands =[
+    {
+        id:1,
+        img:subbrands1
+    },
+    {
+        id:2,
+        img:subbrands2
+    },
+    
+    {
+        id:3,
+        img:subbrands3
+    },
+    
+    {
+        id:4,
+        img:subbrands4
+    },
+    
+    {
+        id:5,
+        img:subbrands5
+    },
+    {
+        id:6,
+        img:subbrands1
+    },
+    {
+        id:7,
+        img:subbrands2
+    },
+    {
+        id:8,
+        img:subbrands5
+    },
+    {
+        id:9,
+        img:subbrands1
+    },
+    {
+        id:10,
+        img:subbrands2
+    },
+]
+
+const datas=[
+    gallery,brands
+]
+
+export default datas

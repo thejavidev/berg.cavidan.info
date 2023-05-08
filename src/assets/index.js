@@ -13,6 +13,11 @@ import gallery6 from './gallery/6.png'
 import gallery7 from './gallery/7.png'
 import gallery8 from './gallery/8.png'
 import gallery9 from './gallery/9.png'
+import subbrands1 from './subbrands/1.svg';
+import subbrands2 from './subbrands/2.svg';
+import subbrands3 from './subbrands/3.svg';
+import subbrands4 from './subbrands/4.svg';
+import subbrands5 from './subbrands/5.svg';
 export{
     slider1,
     aboutPic,
@@ -28,5 +33,10 @@ export{
     gallery6,
     gallery7,
     gallery8,
-    gallery9
+    gallery9,
+    subbrands1,
+    subbrands2,
+    subbrands3,
+    subbrands4,
+    subbrands5
 }
