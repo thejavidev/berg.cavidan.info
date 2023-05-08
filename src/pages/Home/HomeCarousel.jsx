@@ -5,19 +5,19 @@ const carouselItem = [
     {
         id: 1,
         img: slider1,
-        className:"block w-full h-[800px] object-cover",
+        className:"block w-full h-[800px] object-cover md:h-full",
         alt: 'image 1'
     },
     {
         id: 2,
         img: slider1,
-        className:"block w-full h-[800px] object-cover",
+        className:"block w-full h-[800px] object-cover md:h-full",
         alt: 'image 2'
     },
     {
         id: 3,
         img: slider1,
-        className:"block w-full h-[800px] object-cover",
+        className:"block w-full h-[800px] object-cover md:h-full",
         alt: 'image 3'
     },
 ]
@@ -34,7 +34,6 @@ const HomeCarousel = () => {
                                 src={item.img}
                                 alt={item.alt}
                             />
-
                         </Carousel.Item>
                     ))
                 }

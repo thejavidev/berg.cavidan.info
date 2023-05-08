@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+.transition-img{
+    transition: all .3s linear;
+}
